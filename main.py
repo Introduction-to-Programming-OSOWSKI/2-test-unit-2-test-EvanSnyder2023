@@ -7,7 +7,7 @@ def waterstate(f):
         return "liquid"
 
 def isDozen(d):
-    if d % 12 == 12:
+    if d % 12 == 0:
         return True
     else:
         return False
