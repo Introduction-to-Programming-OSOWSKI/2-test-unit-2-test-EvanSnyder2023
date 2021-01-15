@@ -1,7 +1,7 @@
 def waterstate(f):
-    if f<=32:
+    if f <= 32:
         return "solid"
-    elif f>=212:
+    elif f >= 212:
         return "gas"
     else:
         return "liquid"
@@ -12,7 +12,7 @@ def isDozen(d):
     else:
         return False
 
-def toGermen(ja,nein):
+def toGermen(yes):
     if "yes":
         return "ja"
     else:
