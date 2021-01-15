@@ -1,10 +1,10 @@
 def waterstate(f):
     if f <= 32:
-        return "solid"
+        return"solid"
     elif f >= 212:
-        return "gas"
+        return"gas"
     else:
-        return "liquid"
+        return"liquid"
 
 def isDozen(d):
     if d % 12 == 0:
@@ -14,9 +14,9 @@ def isDozen(d):
 
 def toGermen(ja,nein):
     if "yes":
-        return "ja"
+        return"ja"
     else:
-        return "nein"
+        return"nein"
 
 def stopLight(c):
     if c == "slow":
