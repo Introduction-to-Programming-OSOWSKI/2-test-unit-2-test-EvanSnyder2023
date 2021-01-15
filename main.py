@@ -13,7 +13,7 @@ def isDozen(d):
         return False
 
 def toGermen(ja,nein):
-    if True:
+    if "yes":
         return ja
     else:
         return nein
