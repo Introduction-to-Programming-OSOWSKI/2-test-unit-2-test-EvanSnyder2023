@@ -20,7 +20,7 @@ def toGermen(t):
     else:
         return "nein"
 
-print(toGermen("no"))
+print(toGermen("yes"))
 
 def stopLight(c):
     if c == "green":
