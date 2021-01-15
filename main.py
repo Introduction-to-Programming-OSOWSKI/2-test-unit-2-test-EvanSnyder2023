@@ -14,9 +14,9 @@ def isDozen(d):
 
 def toGermen(ja,nein):
     if "yes":
-        return ja
+        return "ja"
     else:
-        return nein
+        return "nein"
 
 def stopLight(c):
     if c == "slow":
